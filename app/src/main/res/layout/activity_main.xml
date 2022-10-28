@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World! Lab-01"
         android:textSize="30dp"
+
         android:textColor="@color/purple_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,6 +22,8 @@
 <!--wrap-content jototuku lage tototuku dive space -->
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"  />
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        />
 
 </LinearLayout>
